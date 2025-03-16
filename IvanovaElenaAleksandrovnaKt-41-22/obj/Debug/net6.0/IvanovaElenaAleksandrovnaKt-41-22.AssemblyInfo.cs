@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IvanovaElenaAleksandrovnaKt-41-22")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24fca19a1036b8668f8094dba0f62bd8eaa427d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a827c4d3ecba2eb28296d0f46d824f4ca6bd0f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("IvanovaElenaAleksandrovnaKt-41-22")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IvanovaElenaAleksandrovnaKt-41-22")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

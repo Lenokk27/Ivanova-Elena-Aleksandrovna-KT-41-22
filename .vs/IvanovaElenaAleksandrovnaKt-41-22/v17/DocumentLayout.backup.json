@@ -1,22 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\",
+  "WorkspaceRootPath": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\ivanovaelenaaleksandrovnakt-41-22\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\migrations\\20250316100129_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\migrations\\20250316100129_createdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\ivanovaelenaaleksandrovnakt-41-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\ivanovaelenaaleksandrovnakt-41-22\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\academicdegreeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\academicdegreeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\teacherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\teacherdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\models\\academicdegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\models\\academicdegree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\positionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\positionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\loadconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\loadconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\disciplineconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\disciplineconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\database\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\models\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\models\\load.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\models\\discipline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\ivanovaelenaaleksandrovnakt-41-22\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|c:\\users\\777\\desktop\\\u043B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u043F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u043A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\ivanovaelenaaleksandrovnakt-41-22\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2803E688-0EFC-4504-B48F-6E11A29C3A48}|IvanovaElenaAleksandrovnaKt-41-22\\IvanovaElenaAleksandrovnaKt-41-22.csproj|solutionrelative:ivanovaelenaaleksandrovnakt-41-22\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +86,210 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250316100129_CreateDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Migrations\\20250316100129_CreateDatabase.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Migrations\\20250316100129_CreateDatabase.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Migrations\\20250316100129_CreateDatabase.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Migrations\\20250316100129_CreateDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T10:01:30.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeacherConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\TeacherConfiguration.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\TeacherConfiguration.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\TeacherConfiguration.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\TeacherConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:53:53.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PositionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\PositionConfiguration.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\PositionConfiguration.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\PositionConfiguration.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\PositionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:53:30.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoadConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\LoadConfiguration.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\LoadConfiguration.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\LoadConfiguration.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\LoadConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:53:05.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DisciplineConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DisciplineConfiguration.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DisciplineConfiguration.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DisciplineConfiguration.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DisciplineConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:52:42.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DepartmentConfiguration.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\DepartmentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:51:43.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AcademicDegreeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\AcademicDegreeConfiguration.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\AcademicDegreeConfiguration.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\AcademicDegreeConfiguration.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Configurations\\AcademicDegreeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:48:14.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColumnType.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Helpers\\ColumnType.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Helpers\\ColumnType.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\Helpers\\ColumnType.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\Helpers\\ColumnType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:46:20.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Teacher.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:44:33.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Position.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Position.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:44:07.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Load.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Load.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Load.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Load.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Load.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:43:31.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Discipline.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Discipline.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Discipline.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Discipline.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Discipline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:43:05.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\Department.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:42:37.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AcademicDegree.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\AcademicDegree.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\AcademicDegree.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Models\\AcademicDegree.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Models\\AcademicDegree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:42:05.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeacherDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\TeacherDbContext.cs",
+              "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\TeacherDbContext.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Database\\TeacherDbContext.cs",
+              "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Database\\TeacherDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:35:09.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -49,40 +300,44 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Program.cs",
               "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\Program.cs",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Program.cs",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\Program.cs",
               "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T19:25:23.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.Development.json",
               "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.Development.json",
               "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-15T19:24:45.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.json",
               "RelativeDocumentMoniker": "IvanovaElenaAleksandrovnaKt-41-22\\appsettings.json",
-              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u044D\u0442\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.json",
+              "ToolTip": "C:\\Users\\777\\Desktop\\\u041B\u0435\u043D\u0430\\6 \u0441\u0435\u043C\u0430\u043A\\\u041F\u0440\u043E\u0435\u043A\u0442\u043D\u044B\u0439 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C \u041A\u0443\u0437\u043D\u0435\u0446\u043E\u0432\u0430\\\u043F\u0430\u043F\u043A\u0430\\IvanovaElenaAleksandrovnaKt-41-22\\appsettings.json",
               "RelativeToolTip": "IvanovaElenaAleksandrovnaKt-41-22\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-15T19:24:40.618Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
