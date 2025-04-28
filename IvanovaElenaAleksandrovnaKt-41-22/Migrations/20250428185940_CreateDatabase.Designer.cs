@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IvanovaElenaAleksandrovnaKt_41_22.Migrations
 {
     [DbContext(typeof(TeacherDbContext))]
-    [Migration("20250316100129_CreateDatabase")]
+    [Migration("20250428185940_CreateDatabase")]
     partial class CreateDatabase
     {
         /// <inheritdoc />
@@ -50,6 +50,9 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("FoundationDate")
+                        .HasColumnType("date");
 
                     b.Property<int?>("HeadId")
                         .HasColumnType("int");
@@ -173,7 +176,7 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Migrations
                     b.HasOne("IvanovaElenaAleksandrovnaKt_41_22.Models.Teacher", "Head")
                         .WithOne("ManagedDepartment")
                         .HasForeignKey("IvanovaElenaAleksandrovnaKt_41_22.Models.Department", "HeadId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.NoAction);
 
                     b.Navigation("Head");
                 });
@@ -201,8 +204,7 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Migrations
                 {
                     b.HasOne("IvanovaElenaAleksandrovnaKt_41_22.Models.AcademicDegree", "AcademicDegree")
                         .WithMany("Teachers")
-                        .HasForeignKey("AcademicDegreeId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .HasForeignKey("AcademicDegreeId");
 
                     b.HasOne("IvanovaElenaAleksandrovnaKt_41_22.Models.Department", "Department")
                         .WithMany("Teachers")
@@ -211,8 +213,7 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Migrations
 
                     b.HasOne("IvanovaElenaAleksandrovnaKt_41_22.Models.Position", "Position")
                         .WithMany("Teachers")
-                        .HasForeignKey("PositionId")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .HasForeignKey("PositionId");
 
                     b.Navigation("AcademicDegree");
 

@@ -12,10 +12,20 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Database.Configurations
             builder.HasKey(d => d.Id);
             builder.Property(d => d.Name).HasMaxLength(100).IsRequired();
 
+            builder.Property(d => d.FoundationDate)
+                   .HasColumnType("date") 
+                   .IsRequired(false);   // дата может быть NULL
+
+            builder.HasMany(d => d.Teachers)
+                .WithOne(t => t.Department)
+                .HasForeignKey(t => t.DepartmentId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             builder.HasOne(d => d.Head)
             .WithOne(t => t.ManagedDepartment)
             .HasForeignKey<Department>(d => d.HeadId)
-            .OnDelete(DeleteBehavior.Restrict);
+            .OnDelete(DeleteBehavior.NoAction);
+
         }
 
     }
