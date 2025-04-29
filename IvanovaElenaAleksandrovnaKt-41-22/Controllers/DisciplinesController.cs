@@ -47,5 +47,24 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Controllers
             await _disciplineService.DeleteDisciplineAsync(disciplineId, cancellationToken);
             return Ok("Дисциплина успешно удалена.");
         }
+        [HttpGet("by-department")]
+        public async Task<IActionResult> GetDisciplinesByDepartmentAsync(
+    [FromQuery] string departmentName,
+    CancellationToken cancellationToken)
+        {
+            if (string.IsNullOrEmpty(departmentName))
+            {
+                return BadRequest("Поле departmentName не может быть пустым.");
+            }
+
+            var filter = new DepartmentDisciplineFilter
+            {
+                DepartmentName = departmentName
+            };
+
+            var disciplines = await _disciplineService.GetDisciplinesByDepartmentAsync(filter, cancellationToken);
+
+            return Ok(disciplines);
+        }
     }
 }

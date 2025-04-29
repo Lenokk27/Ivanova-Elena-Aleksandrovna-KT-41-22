@@ -97,5 +97,22 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Interfaces.DisciplineInterfaces
 
             await _dbContext.SaveChangesAsync(cancellationToken);
         }
+        public async Task<Discipline[]> GetDisciplinesByDepartmentAsync(DepartmentDisciplineFilter filter, CancellationToken cancellationToken = default)
+        {
+            if (string.IsNullOrEmpty(filter.DepartmentName))
+                return Array.Empty<Discipline>();
+
+            var disciplines = await (
+                from department in _dbContext.Departments
+                where department.Name == filter.DepartmentName
+                join teacher in _dbContext.Teachers on department.Id equals teacher.DepartmentId
+                join load in _dbContext.Loads on teacher.Id equals load.TeacherId
+                join discipline in _dbContext.Disciplines on load.DisciplineId equals discipline.Id
+                select discipline
+            ).Distinct()
+             .ToArrayAsync(cancellationToken);
+
+            return disciplines;
+        }
     }
 }

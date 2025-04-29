@@ -5,6 +5,7 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Interfaces.DisciplineInterfaces
 {
     public interface IDisciplineService
     {
+        Task<Discipline[]> GetDisciplinesByDepartmentAsync(DepartmentDisciplineFilter filter, CancellationToken cancellationToken = default);
         Task<Discipline[]> GetDisciplinesAsync(DisciplineFilter filter, CancellationToken cancellationToken = default);
         Task AddDisciplineAsync(Discipline discipline, CancellationToken cancellationToken = default);
         Task UpdateDisciplineAsync(Discipline discipline, CancellationToken cancellationToken = default);
