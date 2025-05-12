@@ -1,5 +1,6 @@
 using IvanovaElenaAleksandrovnaKt_41_22.Database;
 using IvanovaElenaAleksandrovnaKt_41_22.Interfaces.TeachersInterfaces;
+using IvanovaElenaAleksandrovnaKt_41_22.Middlewares;
 using IvanovaElenaAleksandrovnaKt_41_22.ServiceExtensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -43,6 +44,8 @@ try
         app.UseSwagger();
         app.UseSwaggerUI();
     }
+
+    app.UseMiddleware<ExceptionHandlerMiddleware>();
 
     app.UseAuthorization();
 
