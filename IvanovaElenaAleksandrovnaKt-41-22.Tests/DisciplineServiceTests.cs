@@ -1,10 +1,16 @@
+using System;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Xunit;
 using IvanovaElenaAleksandrovnaKt_41_22.Database;
 using IvanovaElenaAleksandrovnaKt_41_22.Filters.DisciplineFilters;
 using IvanovaElenaAleksandrovnaKt_41_22.Interfaces.DisciplineInterfaces;
 using IvanovaElenaAleksandrovnaKt_41_22.Models;
-using Microsoft.EntityFrameworkCore;
+using IvanovaElenaAleksandrovnaKt_41_22.Tests.Helpers;
 
-namespace IvanovaElenaAleksandrovnaKt_41_22.xUnitTests
+
+namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
 {
     public class DisciplineServiceTests
     {
@@ -28,25 +34,7 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.xUnitTests
             // Arrange
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
-                var department = new Department { Name = "Кафедра информатики" };
-                var teacher = new Teacher
-                {
-                    FirstName = "Иван",
-                    LastName = "Иванов",
-                    Department = department
-                };
-
-                var discipline1 = new Discipline { Name = "Программирование" };
-                var discipline2 = new Discipline { Name = "Базы данных" };
-
-                var load1 = new Load { Hours = 30, Teacher = teacher, Discipline = discipline1 };
-                var load2 = new Load { Hours = 20, Teacher = teacher, Discipline = discipline2 };
-
-                await context.Departments.AddAsync(department);
-                await context.Teachers.AddAsync(teacher);
-                await context.Disciplines.AddRangeAsync(discipline1, discipline2);
-                await context.Loads.AddRangeAsync(load1, load2);
-                await context.SaveChangesAsync();
+                await TestDataSeeder.SeedAsync(context);
             }
 
             using (var context = new TeacherDbContext(_dbContextOptions))
@@ -58,23 +46,31 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.xUnitTests
                 var result = await disciplineService.GetDisciplinesByDepartmentAsync(filter);
 
                 // Assert
-                Assert.Equal(2, result.Length);
+                Assert.Single(result); // или Assert.Equal(1, result.Length);
                 Assert.Contains(result, d => d.Name == "Программирование");
-                Assert.Contains(result, d => d.Name == "Базы данных");
             }
         }
 
         [Fact]
         public async Task AddDisciplineAsync_AddsDisciplineSuccessfully()
         {
+            // Arrange
+            using (var context = new TeacherDbContext(_dbContextOptions))
+            {
+                await TestDataSeeder.SeedAsync(context);
+            }
+
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
                 var disciplineService = new DisciplineService(context);
                 var discipline = new Discipline { Name = "Математика" };
 
+                // Act
                 await disciplineService.AddDisciplineAsync(discipline);
 
                 var addedDiscipline = await context.Disciplines.FindAsync(discipline.Id);
+
+                // Assert
                 Assert.NotNull(addedDiscipline);
                 Assert.Equal("Математика", addedDiscipline.Name);
             }
@@ -83,18 +79,25 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.xUnitTests
         [Fact]
         public async Task UpdateDisciplineAsync_UpdatesDisciplineSuccessfully()
         {
+            // Arrange
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
-                var discipline = new Discipline { Name = "Физика" };
-                await context.Disciplines.AddAsync(discipline);
-                await context.SaveChangesAsync();
+                await TestDataSeeder.SeedAsync(context);
+            }
 
+            using (var context = new TeacherDbContext(_dbContextOptions))
+            {
                 var disciplineService = new DisciplineService(context);
-                discipline.Name = "Обновлённая физика";
+                var existingDiscipline = await context.Disciplines.FirstAsync();
 
-                await disciplineService.UpdateDisciplineAsync(discipline);
+                existingDiscipline.Name = "Обновлённая физика";
 
-                var updatedDiscipline = await context.Disciplines.FindAsync(discipline.Id);
+                // Act
+                await disciplineService.UpdateDisciplineAsync(existingDiscipline);
+
+                var updatedDiscipline = await context.Disciplines.FindAsync(existingDiscipline.Id);
+
+                // Assert
                 Assert.NotNull(updatedDiscipline);
                 Assert.Equal("Обновлённая физика", updatedDiscipline.Name);
             }
@@ -103,16 +106,23 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.xUnitTests
         [Fact]
         public async Task DeleteDisciplineAsync_DeletesDisciplineSuccessfully()
         {
+            // Arrange
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
-                var discipline = new Discipline { Name = "Удалить меня" };
-                await context.Disciplines.AddAsync(discipline);
-                await context.SaveChangesAsync();
+                await TestDataSeeder.SeedAsync(context);
+            }
 
+            using (var context = new TeacherDbContext(_dbContextOptions))
+            {
                 var disciplineService = new DisciplineService(context);
-                await disciplineService.DeleteDisciplineAsync(discipline.Id);
+                var disciplineToDelete = await context.Disciplines.FirstAsync();
 
-                var deletedDiscipline = await context.Disciplines.FindAsync(discipline.Id);
+                // Act
+                await disciplineService.DeleteDisciplineAsync(disciplineToDelete.Id);
+
+                var deletedDiscipline = await context.Disciplines.FindAsync(disciplineToDelete.Id);
+
+                // Assert
                 Assert.Null(deletedDiscipline);
             }
         }

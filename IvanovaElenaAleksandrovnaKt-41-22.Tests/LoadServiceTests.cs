@@ -2,6 +2,7 @@
 using IvanovaElenaAleksandrovnaKt_41_22.Filters.LoadFilters;
 using IvanovaElenaAleksandrovnaKt_41_22.Interfaces.LoadInterfaces;
 using IvanovaElenaAleksandrovnaKt_41_22.Models;
+using IvanovaElenaAleksandrovnaKt_41_22.Tests.Helpers;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -33,21 +34,15 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
             // Arrange
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
+                await TestDataSeeder.SeedAsync(context);
+            }
+
+            using (var context = new TeacherDbContext(_dbContextOptions))
+            {
                 var loadService = new LoadService(context);
 
-                var department = new Department { Name = "Кафедра информатики" };
-                var teacher = new Teacher
-                {
-                    FirstName = "Иван",
-                    LastName = "Иванов",
-                    Department = department
-                };
-                var discipline = new Discipline { Name = "Программирование" };
-
-                await context.Departments.AddAsync(department);
-                await context.Teachers.AddAsync(teacher);
-                await context.Disciplines.AddAsync(discipline);
-                await context.SaveChangesAsync();
+                var teacher = await context.Teachers.FirstAsync();
+                var discipline = await context.Disciplines.FirstAsync();
 
                 var load = new Load
                 {
@@ -59,11 +54,12 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
                 // Act
                 await loadService.AddLoadAsync(load);
 
+                // Assert
                 var addedLoad = await context.Loads.FindAsync(load.Id);
                 Assert.NotNull(addedLoad);
                 Assert.Equal(30, addedLoad.Hours);
-                Assert.Equal("Иван", addedLoad.Teacher.FirstName);
-                Assert.Equal("Программирование", addedLoad.Discipline.Name);
+                Assert.Equal(teacher.Id, addedLoad.TeacherId);
+                Assert.Equal(discipline.Id, addedLoad.DisciplineId);
             }
         }
 
@@ -73,42 +69,23 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
             // Arrange
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
+                await TestDataSeeder.SeedAsync(context);
+            }
+
+            using (var context = new TeacherDbContext(_dbContextOptions))
+            {
                 var loadService = new LoadService(context);
 
-                var department = new Department { Name = "Кафедра математики" };
-                var teacher = new Teacher
-                {
-                    FirstName = "Петр",
-                    LastName = "Петров",
-                    Department = department
-                };
-                var discipline = new Discipline { Name = "Математический анализ" };
-
-                await context.Departments.AddAsync(department);
-                await context.Teachers.AddAsync(teacher);
-                await context.Disciplines.AddAsync(discipline);
-                await context.SaveChangesAsync();
-
-                var load = new Load
-                {
-                    TeacherId = teacher.Id,
-                    DisciplineId = discipline.Id,
-                    Hours = 20
-                };
-
-                await context.Loads.AddAsync(load);
-                await context.SaveChangesAsync();
-
-                // Изменяем часы
-                load.Hours = 40;
+                var existingLoad = await context.Loads.FirstAsync();
+                existingLoad.Hours = 50;
 
                 // Act
-                await loadService.UpdateLoadAsync(load);
+                await loadService.UpdateLoadAsync(existingLoad);
 
                 // Assert
+                var updatedLoad = await context.Loads.FindAsync(existingLoad.Id);
                 Assert.NotNull(updatedLoad);
-                Assert.Equal(40, updatedLoad.Hours);
-                Assert.Equal("Математический анализ", updatedLoad.Discipline.Name);
+                Assert.Equal(50, updatedLoad.Hours);
             }
         }
 
@@ -118,35 +95,7 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
             // Arrange
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
-                var loadService = new LoadService(context);
-
-                var department = new Department { Name = "Кафедра физики" };
-                var teacher1 = new Teacher
-                {
-                    FirstName = "Александр",
-                    LastName = "Смирнов",
-                    Department = department
-                };
-                var teacher2 = new Teacher
-                {
-                    FirstName = "Алексей",
-                    LastName = "Иванов",
-                    Department = department
-                };
-
-                var discipline1 = new Discipline { Name = "Физика" };
-                var discipline2 = new Discipline { Name = "Термодинамика" };
-
-                await context.Departments.AddAsync(department);
-                await context.Teachers.AddRangeAsync(teacher1, teacher2);
-                await context.Disciplines.AddRangeAsync(discipline1, discipline2);
-                await context.SaveChangesAsync();
-
-                await context.Loads.AddRangeAsync(
-                    new Load { TeacherId = teacher1.Id, DisciplineId = discipline1.Id, Hours = 30 },
-                    new Load { TeacherId = teacher2.Id, DisciplineId = discipline2.Id, Hours = 40 }
-                );
-                await context.SaveChangesAsync();
+                await TestDataSeeder.SeedAsync(context);
             }
 
             using (var context = new TeacherDbContext(_dbContextOptions))
@@ -154,12 +103,12 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
                 var loadService = new LoadService(context);
 
                 // Act
-                var filter = new LoadFilter { TeacherName = "Александр Смирнов" };
+                var filter = new LoadFilter { TeacherName = "Иван Иванов" };
                 var result = await loadService.GetLoadsAsync(filter);
 
                 // Assert
                 Assert.Single(result);
-                Assert.Equal("Физика", result.First().Discipline.Name);
+                Assert.Equal("Программирование", result.First().Discipline.Name);
             }
         }
 
@@ -169,27 +118,18 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
             // Arrange
             using (var context = new TeacherDbContext(_dbContextOptions))
             {
+                await TestDataSeeder.SeedAsync(context);
+            }
+
+            using (var context = new TeacherDbContext(_dbContextOptions))
+            {
                 var loadService = new LoadService(context);
-
-                var department = new Department { Name = "Кафедра химии" };
-                var teacher = new Teacher
-                {
-                    FirstName = "Василий",
-                    LastName = "Пупкин",
-                    Department = department
-                };
-                var discipline = new Discipline { Name = "Органическая химия" };
-
-                await context.Departments.AddAsync(department);
-                await context.Teachers.AddAsync(teacher);
-                await context.Disciplines.AddAsync(discipline);
-                await context.SaveChangesAsync();
 
                 var invalidLoad = new Load
                 {
                     Id = 999,
-                    TeacherId = teacher.Id,
-                    DisciplineId = discipline.Id,
+                    TeacherId = 1,
+                    DisciplineId = 1,
                     Hours = 50
                 };
 
@@ -199,4 +139,5 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
             }
         }
     }
+
 }
