@@ -59,7 +59,6 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
                 // Act
                 await loadService.AddLoadAsync(load);
 
-                // Assert
                 var addedLoad = await context.Loads.FindAsync(load.Id);
                 Assert.NotNull(addedLoad);
                 Assert.Equal(30, addedLoad.Hours);
@@ -107,7 +106,6 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
                 await loadService.UpdateLoadAsync(load);
 
                 // Assert
-                var updatedLoad = await context.Loads.FindAsync(load.Id);
                 Assert.NotNull(updatedLoad);
                 Assert.Equal(40, updatedLoad.Hours);
                 Assert.Equal("Математический анализ", updatedLoad.Discipline.Name);
@@ -201,6 +199,4 @@ namespace IvanovaElenaAleksandrovnaKt_41_22.Tests
             }
         }
     }
-
-
 }
